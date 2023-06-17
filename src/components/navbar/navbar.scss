@@ -1,0 +1,38 @@
+@import "../../scss/variables/colors";
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  height: 50px;
+  background-color: #fff;
+  width: 100%;
+
+  &__header {
+    margin-left: 10px;
+    font-size: 24px;
+    font-weight: 700;
+  }
+
+  &__login {
+    margin-left: auto;
+    margin-right: 20px;
+  }
+  &__search {
+    width: 200px;
+    margin-left: 30px;
+  }
+  &__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  &__logo {
+    height: 40px;
+  }
+}
+
+.container {
+  width: 1140px;
+  display: flex;
+  align-items: center;
+}

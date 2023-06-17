@@ -1,0 +1,43 @@
+@import "../../scss/variables/colors";
+
+.authorization {
+  display: flex;
+  flex-direction: column;
+  width: 500px;
+  align-items: center;
+  border-radius: 20px;
+  padding: 30px;
+  align-self: center;
+  margin-top: 100px;
+  background-color: #edf3f9;
+
+  &__header {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  input {
+    margin: 10px 20px;
+    border: none;
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 10px;
+
+    &::placeholder{
+      text-transform: uppercase;
+      color: rgb(136, 133, 133);
+      font-weight: 500;
+    }
+  }
+
+  &__btn {
+    border: none;
+    background-color: $font-color;
+    font-weight: 700;
+    color: #fff;
+    border-radius: 8px;
+    padding: 5px 10px;
+    align-self: flex-end;
+    margin-top: 10px;
+  }
+}
